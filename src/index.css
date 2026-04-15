@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  /* Branding Colors */
+  --color-primary: #1a0000;
+  --color-secondry: #8b0000;
+--color-gold: #f9d423;
+  --color-light: #fff176;
+
+  /* Custom Font Stacks */
+  --font-tamil: "Catamaran", "Lato", ui-sans-serif, system-ui;
+  --font-sans: "Lato", ui-sans-serif, system-ui;
+  --font-serif: "Merriweather", serif;
+  --font-display: "Clash Display", sans-serif;
+
+
+  --default-font-family: var(--font-sans);
+
+}
+
+@layer base {
+  html {
+ 
+    font-family: var(--font-tamil), var(--font-sans);
+    color: #1a1a1a;
+    -webkit-font-smoothing: antialiased;
+  }
+
+
+}
