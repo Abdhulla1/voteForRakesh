@@ -119,7 +119,7 @@ export default function ContactSection() {
 
         <span className="text-xs">★</span>
 
-        <p className="text-white/80 text-xs font-bold tracking-widest">
+        <p className="text-white/80 text-nowrap text-xs font-bold tracking-widest">
           {t.footer}
         </p>
 

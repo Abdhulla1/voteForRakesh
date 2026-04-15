@@ -52,8 +52,8 @@ const t = countdownTranslations[lang];
               fontWeight: "bold",
             }}
             digitBlockStyle={{
-              width: 40,
-              height: 60,
+              width: 35,
+              height: 55,
               fontSize: 30,
               fontWeight: "bold",
               color: "#ffff",
