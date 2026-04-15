@@ -1,5 +1,5 @@
 import React from "react";
-import TvkFamily from "@/assets/crowd.png";
+import TvkFamily from "@/assets/crowd.webp";
 import Whistle from "@/assets/tvk-whistle.webp";
 import leaders from "@/assets/leaders.png";
 import candidate from "@/assets/candidate-rakesh.png";
