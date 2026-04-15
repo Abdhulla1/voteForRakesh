@@ -47,7 +47,7 @@ export default function Hero() {
   return (
     <div
       id="#home"
-      className="relative w-full min-h-[45rem] flex flex-col items-center justify-start text-gold overflow-hidden pt-28 pb-5 px-4"
+      className="relative w-full min-h-[45rem] flex flex-col items-center justify-start text-gold overflow-hidden pt-28 pb-5 px-4 isolate"
       style={{
         backgroundImage: `
           radial-gradient(circle at 70% 40%, rgba(255,0,0,0.5) 0%, rgba(120,0,0,0.9) 60%, rgba(40,0,0,1) 100%),
@@ -55,6 +55,7 @@ export default function Hero() {
         `,
         backgroundSize: "cover",
         backgroundPosition: "center",
+          zIndex: 0,
       }}
     >
       <div className="flex flex-col justify-center items-center mb-10">
