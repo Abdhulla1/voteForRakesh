@@ -5,7 +5,7 @@ const footerTranslations = {
   en: {
     quickLinks: "Quick Links",
     home: "Home",
-    name: "Mr. K. Rakesh Kalaivanan",
+    name: "Mr. K. Rakesh",
     about: "About",
     promises: "Promises",
     contact: "Contact",
@@ -18,7 +18,7 @@ const footerTranslations = {
   ta: {
     quickLinks: "விரைவு இணைப்புகள்",
     home: "முகப்பு",
-    name: " திரு. K. ராகேஷ் கலைவாணன்",
+    name: " திரு. K. ராகேஷ்",
     about: "அறிமுகம்",
     promises: "வாக்குறுதிகள்",
     contact: "தொடர்பு",

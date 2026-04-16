@@ -53,7 +53,7 @@ export default function ContactSection() {
 
    
   
-<div className="flex justify-center mt-6 mb-6">
+{/* <div className="flex justify-center mt-6 mb-6">
   <a
     href="tel:+919876543210"
     className="flex items-center gap-3 px-8 py-3 rounded-full bg-gradient-to-r from-yellow-300 to-yellow-600 
@@ -62,6 +62,19 @@ export default function ContactSection() {
   >
     <FaPhoneAlt size={18} />
     {t.phone}
+  </a>
+</div> */}
+<div className="flex justify-center mt-6 mb-6">
+  <a
+    href="https://whatsapp.com/channel/YOUR_CHANNEL_LINK"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-3 px-8 py-3 rounded-full bg-gradient-to-r from-yellow-300 to-yellow-600 
+    text-black font-bold shadow-lg active:scale-95 transition 
+    shadow-[0_0_15px_rgba(255,215,0,0.5)]"
+  >
+    <FaWhatsapp size={18} />
+    Join Channel for Updates
   </a>
 </div>
 
@@ -96,7 +109,7 @@ export default function ContactSection() {
   </a>
 
   <a
-    href="#"
+    href="https://www.facebook.com/share/1Snzgb7Hc1/"
     className="group p-3 rounded-full bg-white/5 border border-gold/20 text-gold 
     hover:bg-gold hover:text-black transition"
   >
@@ -104,7 +117,7 @@ export default function ContactSection() {
   </a>
 
   <a
-    href="https://wa.me/919876543210"
+    href="https://chat.whatsapp.com/Gt2V8G73yHaFyWhYiHYrQt?mode=gi_t"
     target="_blank"
     className="group p-3 rounded-full bg-white/5 border border-gold/20 text-gold 
     hover:bg-green-500 hover:text-white transition"

@@ -3,7 +3,8 @@ import TvkFamily from "@/assets/crowd.webp";
 import Whistle from "@/assets/tvk-whistle.webp";
 import leaders from "@/assets/leaders.png";
 import candidate from "@/assets/candidate-rakesh.png";
-import Vijay from "@/assets/tvk-chief-vijay.png";
+// import Vijay from "@/assets/tvk-chief-vijay.png";
+import Vijay from "@/assets/thalapathy.png";
 import { useLang } from "@/lib/LanguageContext";
 import { ChevronDownCircle } from "lucide-react";
 const heroTranslations = {
@@ -17,7 +18,7 @@ const heroTranslations = {
     tagline:
       "Join the journey towards a prosperous Tamil Nadu, healthy people, and a secure future. Vote for the Whistle symbol.",
     candidateLabel: "Our Winning Candidate",
-    candidate: "Mr. K. Rakesh Kalaivanan",
+    candidate: "Mr. K. Rakesh",
     role: "District Deputy Secretary",
     cta: "View Our Promises",
   },
@@ -31,7 +32,7 @@ const heroTranslations = {
     tagline:
       " வளமான தமிழகம், நலமான மக்கள், பாதுகாப்பான எதிர்காலம் என்ற பயணத்தில் பங்கேற்று, விசில் சின்னத்திற்கு வாக்களியுங்கள்.",
     candidateLabel: "நமது வெற்றி வேட்பாளர்",
-    candidate: "திரு. K. ராகேஷ் கலைவாணன்",
+    candidate: "திரு. K. ராகேஷ்",
     role: "மாவட்ட துணைச்செயலாளர்",
     cta: "எங்கள் வாக்குறுதிகளை பார்க்க",
   },
@@ -103,19 +104,19 @@ export default function Hero() {
         </div>
 
         <div className="flex-col items-center flex justify-center relative">
-          <div className=" h-[460px] w-fit overflow-hidden">
             <img
-              src={candidate}
+              src={Vijay}
               alt="Candidate Rakesh"
-              className="object-cover w-full h-full  drop-shadow-[10px_10px_10px_rgba(0,0,0,0.5)]
+              className="object-cover w-fit h-[30rem]  drop-shadow-[10px_10px_10px_rgba(0,0,0,0.5)]
     [mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)]
     [-webkit-mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)]"
             />
-          </div>
+          {/* <div className=" w-fit h-[460px] w-fit overflow-hidden">
+          </div> */}
           <img
-            src={Vijay}
+            src={candidate}
             alt="Candidate Rakesh"
-            className="absolute bottom-20 right-0 object-cover w-44 h-48  drop-shadow-[10px_10px_10px_rgba(0,0,0,0.5)]
+            className="absolute bottom-20 -left-1 object-cover w-45 h-fit  drop-shadow-[10px_10px_10px_rgba(0,0,0,0.5)]
   "
           />
           <div className="absolute w-full h-24 rounded-sm flex flex-col justify-center items-center bottom-0">

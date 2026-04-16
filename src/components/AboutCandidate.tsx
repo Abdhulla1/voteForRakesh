@@ -5,7 +5,7 @@ const aboutTranslations = {
   en: {
     label: "Candidate Profile",
     namePrefix: "Mr.",
-    name: "K. Rakesh Kalaivanan",
+    name: "K. Rakesh",
     role: "M.Sc (Agri) • District Deputy Secretary",
     description:
       "A dedicated leader committed to the development of the people of Harur. Focused on improving education, employment, agriculture, and basic infrastructure.",
@@ -20,7 +20,7 @@ const aboutTranslations = {
   ta: {
     label: "வேட்பாளர் அறிமுகம்",
     namePrefix: "திரு.",
-    name: "K. ராகேஷ் கலைவாணன்",
+    name: "K. ராகேஷ்",
     role: "M.SC.(Agri) • மாவட்ட துணைச்செயலாளர்",
     description:
       "அரூர் மக்களின் முன்னேற்றத்திற்காக அர்ப்பணிப்புடன் செயல்படும் தலைவர். கல்வி, வேலைவாய்ப்பு, விவசாயம் மற்றும் அடிப்படை வசதிகளை மேம்படுத்த உறுதியாக செயல்படுபவர்.",
