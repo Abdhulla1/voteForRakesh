@@ -82,7 +82,7 @@ export default function ContactSection() {
 <div className="flex justify-center gap-4 flex-wrap">
 
   <a
-    href="https://www.instagram.com/tvk_rk_harur/"
+    href="mailto:rktvkharur@gmail.com"
     target="_blank"
     className="group p-3 rounded-full bg-white/5 border border-gold/20 text-gold 
     hover:bg-gold hover:text-black transition"

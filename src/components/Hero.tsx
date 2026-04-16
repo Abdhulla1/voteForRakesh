@@ -106,7 +106,7 @@ export default function Hero() {
         <div className="flex-col items-center flex justify-center relative">
             <img
               src={Vijay}
-              alt="Candidate Rakesh"
+              alt="TVK Chief Thalapathy Vijay"
               className="object-cover w-fit h-[28rem] md:h-[30rem]  drop-shadow-[10px_10px_10px_rgba(0,0,0,0.5)]
     [mask-image:linear-gradient(to_bottom,black_50%,transparent_100%)]
     [-webkit-mask-image:linear-gradient(to_bottom,black_60%,transparent_100%)]"
@@ -116,7 +116,7 @@ export default function Hero() {
           <img
             src={candidate}
             alt="Candidate Rakesh"
-            className="absolute bottom-20 -left-2 md:-left-1 object-cover w-44 md:w-45 h-fit  drop-shadow-[10px_10px_10px_rgba(0,0,0,0.5)]
+            className="absolute bottom-20 -left-2 md:-left-1 object-cover w-44 md:w-50 h-fit  drop-shadow-[10px_10px_10px_rgba(0,0,0,0.5)]
   "
           />
           <div className="absolute w-full h-24 rounded-sm flex flex-col justify-center items-center bottom-0">
