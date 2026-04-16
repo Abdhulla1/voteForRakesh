@@ -6,7 +6,7 @@ import path from 'path'
 export default defineConfig({
    server: {
     host: "::",
-    port: 8080,
+    port: 8081,
     // allowedHosts: ["3ca9a6b8cc8b.ngrok-free.app", "nonsanguinely-climatological-annemarie.ngrok-free.dev", "disjoinable-jaliyah-unspasmodical.ngrok-free.dev", "localhost"],
   },
   plugins: [react(), tailwindcss()],

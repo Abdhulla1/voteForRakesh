@@ -116,7 +116,7 @@ export default function Hero() {
           <img
             src={candidate}
             alt="Candidate Rakesh"
-            className="absolute bottom-20 -left-1 object-cover w-40 md:w-45 h-fit  drop-shadow-[10px_10px_10px_rgba(0,0,0,0.5)]
+            className="absolute bottom-20 -left-2 md:-left-1 object-cover w-44 md:w-45 h-fit  drop-shadow-[10px_10px_10px_rgba(0,0,0,0.5)]
   "
           />
           <div className="absolute w-full h-24 rounded-sm flex flex-col justify-center items-center bottom-0">
