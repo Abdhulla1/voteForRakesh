@@ -7,6 +7,7 @@ import AboutCandidate from "./components/AboutCandidate";
 import ContactSection from "./components/ContactSection";
 import Hero from "./components/Hero";
 import { ChevronsUp } from "lucide-react";
+import EvmVoteSection from "./components/EvmVoteSection";
 
 export default function Home() {
   const [showScroll, setShowScroll] = useState(false);
@@ -45,7 +46,7 @@ export default function Home() {
         <ElectionCountdown />
         <span className="block mx-auto  h-[2px] w-full bg-gradient-to-r from-transparent via-gold to-transparent"></span>
       </div>
-        {/* Promises */}
+        <EvmVoteSection/>
         <PromisesSection/>
         <AboutCandidate/>
         <ContactSection/>

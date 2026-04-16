@@ -13,12 +13,14 @@ const NavBar = React.memo(() => {
       promises: "Promises",
       about: "About",
       contact: "Contact",
+      join: "Join",
     },
     ta: {
       home: "முகப்பு",
       promises: "வாக்குறுதிகள்",
       about: "எங்களை பற்றி",
       contact: "தொடர்பு",
+      join: "சேருங்கள்",
     },
   };
   const t = navTranslations[lang];
@@ -46,7 +48,6 @@ const NavBar = React.memo(() => {
             <img src={TvkWhistle} alt="TVK Whislet Logo" className="h-14" />
           </button>
 
-          {/* Desktop links */}
           <div className="hidden text-slate-50 md:flex items-center gap-6">
             {links.map((l) => (
               <button
@@ -62,13 +63,19 @@ const NavBar = React.memo(() => {
           <div className="flex items-center gap-2">
             <button
               onClick={toggleLang}
-              className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-gold  text-xs font-semibold transition-colors"
+              className="flex text-gold items-center gap-1 px-3 py-1.5 rounded-full bg-white/20 border border-gray-200  text-xs font-semibold active:scale-95 transition-colors"
             >
               <Globe className="w-3.5 h-3.5" />
               {lang === "ta" ? "EN" : "தமிழ்"}
             </button>
+            <a
+              href="https://tvk.family/"
+              className="px-4 py-1 rounded-full shadow-xl shadow-gold/30  bg-gradient-to-r from-yellow-300 to-yellow-600 
+    text-black text-sm font-bold shadow-md active:scale-95 transition"
+            >
+              {t.join}
+            </a>
 
-            {/* Mobile menu toggle */}
             <button
               className="md:hidden p-2 text-foreground"
               onClick={() => setMenuOpen(!menuOpen)}

@@ -56,7 +56,6 @@ const t = aboutTranslations[lang];
         </div>
 
         <div>
-          {/* Small title */}
           <p className="text-gold text-sm font-bold tracking-widest mb-3 text-start w-fit">
             {t.label}
             <span className="block mx-auto  mt-1 h-[2px] w-36 bg-gradient-to-r from-transparent via-gold to-transparent"></span>
@@ -75,7 +74,6 @@ const t = aboutTranslations[lang];
             {t.description}
           </p>
 
-          {/* Highlights */}
           <div className="grid grid-cols-2 gap-4 mb-6">
             <div className="bg-white/5 border border-gold/20 rounded-lg p-4">
               <p className="text-gold font-semibold flex items-center gap-2">
@@ -96,7 +94,6 @@ const t = aboutTranslations[lang];
             </div>
           </div>
           
-          {/* CTA */}
           <button className="bg-gold text-black px-6 py-3 rounded-md font-semibold shadow hover:scale-105 transition">
             {t.cta}
           </button>

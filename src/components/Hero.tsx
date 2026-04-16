@@ -6,7 +6,7 @@ import candidate from "@/assets/candidate-rakesh.png";
 // import Vijay from "@/assets/tvk-chief-vijay.png";
 import Vijay from "@/assets/thalapathy.png";
 import { useLang } from "@/lib/LanguageContext";
-import { ChevronDownCircle } from "lucide-react";
+import { ChevronDownCircle,ChevronRightCircle } from "lucide-react";
 const heroTranslations = {
   en: {
     slogan: "All lives are equal by birth!",
@@ -20,7 +20,7 @@ const heroTranslations = {
     candidateLabel: "Our Winning Candidate",
     candidate: "Mr. K. Rakesh",
     role: "District Deputy Secretary",
-    cta: "View Our Promises",
+    cta: "Full Manifesto – 2026 Election",
   },
   ta: {
     slogan: "பிறப்பொக்கும் எல்லா உயிர்க்கும்!",
@@ -34,7 +34,7 @@ const heroTranslations = {
     candidateLabel: "நமது வெற்றி வேட்பாளர்",
     candidate: "திரு. K. ராகேஷ்",
     role: "மாவட்ட துணைச்செயலாளர்",
-    cta: "எங்கள் வாக்குறுதிகளை பார்க்க",
+    cta: "முழுமையான வாக்குறுதிகள் – 2026",
   },
 };
 export default function Hero() {
@@ -94,13 +94,15 @@ export default function Hero() {
           <p className="text-white font-semibold mt-4 max-w-md leading-relaxed d">
             {t.tagline}
           </p>
-          <button
-            onClick={() => handleScroll("#promises")}
-            className="px-6 py-3 mx-auto md:mx-0 mt-3 rounded-md border-2 flex justify-center items-center gap-2 border-gold text-gold font-semibold 
+          <a
+          href="https://tvkvijay.com/ta-IN/manifesto"
+          target="_blank"
+            // onClick={() => handleScroll("#promises")}
+            className="px-6 py-3 inline-flex mx-auto md:mx-0 mt-3 rounded-md border-2  justify-center items-center gap-2 border-gold text-gold font-semibold 
   hover:bg-gold hover:text-primary transition duration-300 hover:shadow-[4px_4px_10px_rgba(255,215,0,0.3)]"
           >
-            <ChevronDownCircle size={18} /> {t.cta}
-          </button>
+         <ChevronRightCircle size={18}/>  {t.cta}
+          </a>
         </div>
 
         <div className="flex-col items-center flex justify-center relative">

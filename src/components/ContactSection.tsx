@@ -32,7 +32,6 @@ export default function ContactSection() {
 
   return (
     <section id="#contact" className="py-20 px-4 bg-[#1a0000] text-white text-center  scroll-m-18">
-      {/* Title */}
       <p className="text-gold text-sm font-bold tracking-widest mb-3">
         {t.label}
          <span className="block mx-auto  mt-1 h-[2px] w-20 bg-gradient-to-r from-transparent via-gold to-transparent"></span>
@@ -45,7 +44,6 @@ export default function ContactSection() {
         </span>
       </h2>
 
-      {/* Description */}
       <p className="text-white/90 max-w-xl mx-auto mb-2">
         {t.description}
       </p>
@@ -78,7 +76,6 @@ export default function ContactSection() {
   </a>
 </div>
 
-{/* 🌐 Social Icons (SECONDARY) */}
 <div className="flex justify-center gap-4 flex-wrap">
 
   <a

@@ -45,7 +45,6 @@ export default function Footer() {
         <img src={tvk} alt="Tvk " className="h-[90px] w-fit" />
 
         <div className="flex justify-start flex-wrap md:flex-nowrap md:justify-center items-start gap-8">
-          {/* 🔗 Quick Links */}
           <div className="w-fit ">
             <h4 className="text-gold font-semibold mb-3 text-nowrap">
               {t.quickLinks}
