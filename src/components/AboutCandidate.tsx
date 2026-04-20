@@ -1,4 +1,4 @@
-import candidate from "@/assets/candidate-rakesh-tvk.png";
+import candidate from "@/assets/candidate-rakesh-tvk.webp";
 import { useLang } from "@/lib/LanguageContext";
 
 const aboutTranslations = {

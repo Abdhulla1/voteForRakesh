@@ -2,9 +2,9 @@ import React from "react";
 import TvkFamily from "@/assets/crowd.webp";
 import Whistle from "@/assets/tvk-whistle.webp";
 import leaders from "@/assets/leaders.png";
-import candidate from "@/assets/candidate-rakesh.png";
+import candidate from "@/assets/candidate-rakesh.webp";
 // import Vijay from "@/assets/tvk-chief-vijay.png";
-import Vijay from "@/assets/thalapathy.png";
+import Vijay from "@/assets/thalapathy.webp";
 import { useLang } from "@/lib/LanguageContext";
 import { ChevronDownCircle,ChevronRightCircle } from "lucide-react";
 const heroTranslations = {
