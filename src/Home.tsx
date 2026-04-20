@@ -8,7 +8,6 @@ import ContactSection from "./components/ContactSection";
 import Hero from "./components/Hero";
 import { ChevronsUp } from "lucide-react";
 import EvmVoteSection from "./components/EvmVoteSection";
-
 export default function Home() {
   const [showScroll, setShowScroll] = useState(false);
   useEffect(() => {

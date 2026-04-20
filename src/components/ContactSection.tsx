@@ -37,7 +37,7 @@ export default function ContactSection() {
          <span className="block mx-auto  mt-1 h-[2px] w-20 bg-gradient-to-r from-transparent via-gold to-transparent"></span>
       </p>
 
-      <h2 className="text-3xl md:text-5xl font-bold mb-4">
+      <h2 className="text-xl  md:text-5xl font-bold mb-4">
         {t.title1}{" "}
         <span className="bg-gradient-to-r from-yellow-300 to-yellow-600 bg-clip-text text-transparent">
           {t.titleHighlight}

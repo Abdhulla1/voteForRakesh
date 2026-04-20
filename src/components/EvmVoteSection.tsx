@@ -150,21 +150,21 @@ export default function EvmVoteSection() {
           </div>
           <img
             src={whisteWithThalapathy}
-            className=" absolute bottom-4 left-1/2 transform h-86 -translate-x-1/6"
+            className=" absolute bottom-[10%] md:bottom-4 left-1/2 transform h-60 md:h-86 -translate-x-1/6"
           />
         </div>
 
         <div className="text-center md:text-left">
-          <p className="text-gold mx-auto md:mx-0 text-sm font-bold tracking-widest mb-3 w-fit">
+          <p className="text-gold mx-auto md:mx-0 text-xs md:text-sm font-bold tracking-widest mb-3 w-fit">
             {t.label}
             <span className="block  mx-auto mt-1 h-[2px] w-40 bg-gradient-to-r from-transparent via-gold to-transparent"></span>
           </p>
 
-          <h2 className="text-3xl md:text-4xl font-extrabold leading-tight mb-4">
+          <h2 className="text-xl md:text-4xl font-extrabold leading-tight mb-4">
             {t.title}
           </h2>
 
-          <div className="bg-gradient-to-r from-yellow-300 to-yellow-600 text-black font-bold px-6 py-3 rounded-lg inline-block mb-6 shadow-lg">
+          <div className="bg-gradient-to-r from-yellow-300 to-yellow-600 text-black font-bold px-2 md:px-4 text-xs md:text-base md:px-6 py-3 rounded-lg inline-block mb-6 shadow-lg">
             {t.row}
           </div>
 

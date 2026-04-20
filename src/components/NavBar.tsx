@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import TvkWhistle from "@/assets/tvk-whistle.webp";
 import { Moon, Sun, Globe } from "lucide-react";
 import { useLang } from "@/lib/LanguageContext";
@@ -36,16 +36,22 @@ const NavBar = React.memo(() => {
       behavior: "smooth",
     });
   };
-
+ useEffect(() => {
+    document.title =
+      lang === "ta"
+        ? "விசில் சின்னத்திற்கு வாக்களியுங்கள் | க. ராகேஷ் | அரூர் சட்டமன்றத் தொகுதி 2026"
+        : "Vote for Whistle Symbol | K. Rakesh | Harur Constituency 2026";
+  }, [lang]);
+  
   return (
     <>
-      <nav className="px-6 md:px-24 p-3 fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b-4 border-gold  font-sans">
-        <div className="container  mx-auto px-4 flex items-center justify-between h-16">
+      <nav className="px-3 md:px-24 p-3 fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b-4 border-gold  font-sans">
+        <div className=" mx-auto flex items-center justify-between h-16">
           <button
             onClick={() => handleScroll("#home")}
-            className="flex items-center gap-2"
+            
           >
-            <img src={TvkWhistle} alt="TVK Whislet Logo" className="h-14" />
+            <img src={TvkWhistle} alt="TVK Whislet Logo" className="h-14 s" />
           </button>
 
           <div className="hidden text-slate-50 md:flex items-center gap-6">
@@ -60,18 +66,18 @@ const NavBar = React.memo(() => {
             ))}
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1 md:gap-2">
             <button
               onClick={toggleLang}
-              className="flex text-gold items-center gap-1 px-3 py-1.5 rounded-full bg-white/20 border border-gray-200  text-xs font-semibold active:scale-95 transition-colors"
+              className="flex text-gold items-center gap-1 px-1.5 py-1 md:px-3  rounded-full bg-white/20 border border-gray-200  text-xs font-semibold active:scale-95 transition-colors"
             >
-              <Globe className="w-3.5 h-3.5" />
+              <Globe className="size-3 md:w-3.5 md:h-3.5" />
               {lang === "ta" ? "EN" : "தமிழ்"}
             </button>
             <a
               href="https://tvk.family/"
-              className="px-4 py-1 rounded-full shadow-xl shadow-gold/30  bg-gradient-to-r from-yellow-300 to-yellow-600 
-    text-black text-sm font-bold shadow-md active:scale-95 transition"
+              className="px-2   md:px-4 py-1 rounded-full shadow-xl shadow-gold/30  bg-gradient-to-r from-yellow-300 to-yellow-600 
+    text-black text-xs md:text-sm font-bold active:scale-95 transition"
             >
               {t.join}
             </a>

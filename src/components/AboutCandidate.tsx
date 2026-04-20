@@ -55,7 +55,7 @@ const t = aboutTranslations[lang];
           </div>
         </div>
 
-        <div>
+        <div >
           <p className="text-gold text-sm font-bold tracking-widest mb-3 text-start w-fit">
             {t.label}
             <span className="block mx-auto  mt-1 h-[2px] w-36 bg-gradient-to-r from-transparent via-gold to-transparent"></span>
@@ -75,7 +75,7 @@ const t = aboutTranslations[lang];
           </p>
 
           <div className="grid grid-cols-2 gap-4 mb-6">
-            <div className="bg-white/5 border border-gold/20 rounded-lg p-4">
+            <div className="bg-white/5 border border-gold/20 rounded-lg p-2 md:p-4">
               <p className="text-gold font-semibold flex items-center gap-2">
                 🤝 {t.serviceTitle}
               </p>
@@ -84,7 +84,7 @@ const t = aboutTranslations[lang];
               </p>
             </div>
 
-            <div className="bg-white/5 border border-gold/20 rounded-lg p-4">
+            <div className="bg-white/5 border border-gold/20 rounded-lg p-2 md:p-4">
               <p className="text-gold font-semibold flex items-center gap-2">
                 🛡️ {t.integrityTitle}
               </p>
@@ -94,7 +94,7 @@ const t = aboutTranslations[lang];
             </div>
           </div>
           
-          <button className="bg-gold text-black px-6 py-3 rounded-md font-semibold shadow hover:scale-105 transition">
+          <button className="bg-gold text-black px-3 md:px-6 py-3 rounded-md font-semibold shadow hover:scale-105 transition">
             {t.cta}
           </button>
         </div>

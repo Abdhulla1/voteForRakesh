@@ -98,7 +98,7 @@ export default function Hero() {
           href="https://tvkvijay.com/ta-IN/manifesto"
           target="_blank"
             // onClick={() => handleScroll("#promises")}
-            className="px-6 py-3 inline-flex mx-auto md:mx-0 mt-3 rounded-md border-2  justify-center items-center gap-2 border-gold text-gold font-semibold 
+            className="px-2 md:px-6 py-3 inline-flex mx-auto md:mx-0 mt-3 rounded-md border-2  justify-center items-center gap-2 border-gold text-gold font-semibold 
   hover:bg-gold hover:text-primary transition duration-300 hover:shadow-[4px_4px_10px_rgba(255,215,0,0.3)]"
           >
          <ChevronRightCircle size={18}/>  {t.cta}
